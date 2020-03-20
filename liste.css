@@ -10,70 +10,72 @@ font-size: 500%;
 color: white;
 justify-content: center;
 text-align: center;
-
 }
 
+h2{
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+color : white;
+}
+
+
 .img1{
-  overflow:hidden;
-      -webkit-border-radius:50px;
-      -moz-border-radius:50px;
-      border-radius:50px;
+overflow:hidden;
+display: flex;
 justify-content: center;
+
 }
 
 
 header{
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#65bbaf, #9fc3ee);
+  background-image: linear-gradient(#fdc1b5,  #fde5b5 );
   -moz-border-radius:7px;
 -webkit-border-radius:7px;
 border-radius:7px;
 
 }
 
-body{
-}
-
 table{
 background-color: white;
 display:flex;
-flex-direction: column;
-margin: 0%;
-padding: 0%;
-border-spacing: 10px;
-border: dotted;
+justify-content: center;
+margin: 3%;
+padding: 3%;
 border: pink;
 border-width: 3px;
-
+ border-style:solid;
+ width:60%;
 }
 
-.titre{
 
+.titre{
   font-size: 90%;
   color: pink;
 }
 
 .formulaire a {
-    width:2000%;
-  	height: 1000px;
-  	background:#fafafa;
-  	font:bold 100px;
-  	border-radius:20%;
+  border: 5px;
+  border-style: double;
   	color:#555;
     text-decoration: none;
-
+    font-size: 40px;
+    border-radius:50%;
+    padding: 20px;
+    margin: 20px;
 }
-.formulaire a:hover {
 
-	width:2000%;
-	height:1000px;
-	background:#cc0000;
-	font:bold 100px;
-	border-radius:20%;
+.formulaire a:hover {
+	background: #fcce72 ;
 	border:none;
 	color:#fff;
   text-decoration: none;
+  font-size: 40px;
+  border-radius:50%;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 img{
@@ -82,10 +84,80 @@ width: 20%;
 height: 10%;
 margin: 0%
 padding:0%;
-
+border: 4px solid  #ffe3ae ;
 }
 
 footer{
   display: flex;
   justify-content: center;
+  padding: 2%;
+}
+
+
+label{
+  display: block;
+  width: 100px;
+  float: left;
+}
+
+form{
+  width: 45%;
+  height: 50%;
+  background-color: white;
+  padding: 1%;
+  margin: 1%;
+  }
+
+legend{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input, select
+{
+  margin:7px;
+}
+
+textarea
+{
+  margin-top:5px;
+  width: 400px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+  align-items: center;
+}
+
+a
+{
+  text-decoration: none;
+  background-color:  #ffe3ae ;
+}
+
+
+.vert{
+  color:green;
+}
+
+.rouge{
+  color:red;
+}
+
+.important{
+  text-decoration: underline;;
+}
+
+.non{
+  font-style: oblique;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
 }
